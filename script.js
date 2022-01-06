@@ -1,17 +1,4 @@
 
-/*function displayImage(data){
-    $('<img>',{
-        src : data.data.memes[2].url,
-        height : '100%',
-        width : '100%'
-    }).appendTo('#image-container');
-}
-
-$.ajax({
-    url : 'https://api.imgflip.com/get_memes',
-    method : 'GET',
-    success : displayImage
-});*/
 
 function displayImage(data){
     // console.log(data.data.memes.length);
